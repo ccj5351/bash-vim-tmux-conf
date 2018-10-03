@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/ccj/PKLS/cpp/LocalExpStereo'
+let g:netrw_dirhist_2='/home/ccj/PKLS/eth3d'
+let g:netrw_dirhist_3='/home/ccj/PKLS'
+let g:netrw_dirhist_4='/home/ccj/PKLS/cpp/KITTI-devkit'
+let g:netrw_dirhist_5='/home/ccj/PKLS/datasets/MiddleBury/MiddEval3/additionalH/Cable-imperfect'
+let g:netrw_dirhist_6='/home/ccj/PKLS/cpp/LocalExpStereo'
+let g:netrw_dirhist_7='/home/ccj/PKLS/results/tmp'
+let g:netrw_dirhist_8='/home/ccj/vid2depFlow/bazel'
+let g:netrw_dirhist_9='/home/ccj/CBMV-MP/zoo'
