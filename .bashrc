@@ -136,36 +136,6 @@ alias clc="clear"
 alias lsc="ls -1 | wc -l" # Trying to count number of files in current directory
 
 # Added by CCJ.
-#alias link-vision3="ssh -X ccj@vision3.srcit.stevens.edu"
-#alias link-vision4="ssh -X ccj@vision4.srcit.stevens.edu"
-#alias link-vision5="ssh -X ccj@vision5.srcit.stevens.edu"
-alias lv3="ssh -X ccj@vision3.srcit.stevens.edu"
-alias lv4="ssh -X ccj@vision4.srcit.stevens.edu"
-alias lv5="ssh -X ccj@vision5.srcit.stevens.edu"
-alias lv6="ssh -X ccai1@vision6.cs.stevens-tech.edu"
-#alias lv3tb="ssh -X -L 16006:vision3.srcit.stevens.edu:6006 ccj@vision3.srcit.stevens.edu"
-#alias lv3tb="ssh -X -L 16006:127.0.0.1:6006 ccj@vision3.srcit.stevens.edu"
-#alias lv5tb="ssh -X -L 16006:127.0.0.2:6006 ccj@vision5.srcit.stevens.edu"
-
-alias lvkb="ssh -X ccj@155.246.238.138"
-
-# Added by CCJ.
-alias mount-vision3="sudo sshfs -o allow_other,IdentityFile=/home/ccj/.ssh/ccj_cv24_id_rsa ccj@vision3.srcit.stevens.edu:/ /mnt/vision3/"
-alias mount-vision4="sudo sshfs -o allow_other,IdentityFile=/home/ccj/.ssh/ccj_cv24_id_rsa ccj@vision4.srcit.stevens.edu:/ /mnt/vision4/"
-alias mount-vision5="sudo sshfs -o allow_other,IdentityFile=/home/ccj/.ssh/ccj_cv24_id_rsa ccj@vision5.srcit.stevens.edu:/ /mnt/vision5/"
-alias mount-vision6="sudo sshfs -o allow_other,IdentityFile=/home/ccj/.ssh/ccj_cv24_id_rsa ccai1@vision6.cs.stevens-tech.edu:/ /mnt/vision6/"
-
-alias umount-vision3="sudo umount /mnt/vision3/"
-alias umount-vision4="sudo umount /mnt/vision4/"
-alias umount-vision5="sudo umount /mnt/vision5/"
-alias umount-vision6="sudo umount /mnt/vision6/"
-
-alias cdv3="cd /mnt/vision3/home/ccj/"
-alias cdv4="cd /mnt/vision4/home/ccj/"
-alias cdv5="cd /mnt/vision5/home/ccj/"
-alias cdv6="cd /mnt/vision6/ccjData/"
-
-# Added by CCJ.
 PATH=$TBB_LIBRARY:$PATH
 PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
 LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
